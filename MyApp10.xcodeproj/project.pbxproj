@@ -12,6 +12,7 @@
 		CE533C261F02092200012FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE533C241F02092200012FC7 /* Main.storyboard */; };
 		CE533C281F02092200012FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE533C271F02092200012FC7 /* Assets.xcassets */; };
 		CE533C2B1F02092200012FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE533C291F02092200012FC7 /* LaunchScreen.storyboard */; };
+		CE533C341F0229D600012FC7 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = CE533C331F0229D600012FC7 /* user.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE533C271F02092200012FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE533C2A1F02092200012FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE533C2C1F02092200012FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE533C331F0229D600012FC7 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		CE533C141F02092200012FC7 = {
 			isa = PBXGroup;
 			children = (
+				CE533C321F0229C100012FC7 /* imgs */,
 				CE533C1F1F02092200012FC7 /* MyApp10 */,
 				CE533C1E1F02092200012FC7 /* Products */,
 			);
@@ -62,6 +65,14 @@
 				CE533C2C1F02092200012FC7 /* Info.plist */,
 			);
 			path = MyApp10;
+			sourceTree = "<group>";
+		};
+		CE533C321F0229C100012FC7 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				CE533C331F0229D600012FC7 /* user.png */,
+			);
+			name = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			files = (
 				CE533C2B1F02092200012FC7 /* LaunchScreen.storyboard in Resources */,
 				CE533C281F02092200012FC7 /* Assets.xcassets in Resources */,
+				CE533C341F0229D600012FC7 /* user.png in Resources */,
 				CE533C261F02092200012FC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
